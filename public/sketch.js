@@ -11,6 +11,10 @@ var squares = [];
 
 function setup() {
   createCanvas(windowWidth,windowHeight)
+  drawingContext.shadowOffsetX = 5;
+  drawingContext.shadowOffsetY = -5;
+  drawingContext.shadowBlur = 10;
+  drawingContext.shadowColor = '#D3D3D3';
 
 
   // Creat the video and start face tracking
